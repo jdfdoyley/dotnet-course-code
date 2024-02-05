@@ -13,5 +13,12 @@ class Program
         myGroceryArray[1] = "Broccoli";
 
         Console.WriteLine(myGroceryArray[0]);
+        Console.WriteLine(myGroceryArray[1]);
+        // Console.WriteLine(myGroceryArray[2]);    // This produce an error
+
+        string[] mySecArr = { "Apple", "Eggs" };
+
+        Console.WriteLine(mySecArr[0]);
+        Console.WriteLine(mySecArr[1]);
     }
 }
