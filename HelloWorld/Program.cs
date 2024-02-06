@@ -62,12 +62,18 @@ class Program
         // Console.WriteLine(PI);
 
         // Storing Data
-        int a = 10; // Storing an integer literal in a variable
-        a = 20; // Changing the value stored in the variable 'a'
-        const string GREETING = "Hello, C#"; // Storing a string literal in a constant
+        // int a = 10; // Storing an integer literal in a variable
+        // a = 20; // Changing the value stored in the variable 'a'
+        // const string GREETING = "Hello, C#"; // Storing a string literal in a constant
 
         // Retrieving Data
-        Console.WriteLine(a); // Output: 20
-        Console.WriteLine(GREETING);
+        // Console.WriteLine(a); // Output: 20
+        // Console.WriteLine(GREETING);
+
+        // Using Variables in Expressions
+        int x = 5;
+        int y = 10;
+        int sum = x + y;  // Using variables 'x' and 'y' in an expression
+        Console.WriteLine(sum);
     }
 }
