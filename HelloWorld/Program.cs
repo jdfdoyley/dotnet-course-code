@@ -6,19 +6,42 @@ class Program
     {
         // Console.WriteLine("Hello, World!");
 
-        // Data Structures
-        string[] myGroceryArray = new string[2];
+        // Data Structures - Arrays
+        // Array - An array is a fixed-size data structure that can hold elements of the same type. It is the simplest
+        // form of data structure and provides fast access to its items by using an index. Arrays are defined with a
+        // specific length, and once created, the size cannot be changed.
 
-        myGroceryArray[0] = "Chicken Breast";
-        myGroceryArray[1] = "Broccoli";
+        int[] numbers = new int[5]; // declare an array of integers with 5 elements
+        int[] initializedNumbers = { 1, 2, 3, 4, 5 }; // declares and initilizes an array
 
-        Console.WriteLine(myGroceryArray[0]);
-        Console.WriteLine(myGroceryArray[1]);
-        // Console.WriteLine(myGroceryArray[2]);    // This produce an error
+        Console.WriteLine();
 
-        string[] mySecArr = { "Apple", "Eggs" };
+        // Data Structure - Lists
+        List<double> temperatures = new List<double> { 20.5, 22.3, 18.7, 19.5, 25.1, 21.3, 23.2 };
+        foreach (var temperature in temperatures)
+        {
+            Console.WriteLine(temperature);
+        }
+        Console.WriteLine();
 
-        Console.WriteLine(mySecArr[0]);
-        Console.WriteLine(mySecArr[1]);
+        // Add new temperature
+        temperatures.Add(24.4);
+        foreach (var temperature in temperatures)
+        {
+            Console.WriteLine(temperature);
+        }
+        Console.WriteLine();
+
+        // Remove specific temperature
+        temperatures.Remove(20.5);
+        foreach (var temperature in temperatures)
+        {
+            Console.WriteLine(temperature);
+        }
+        Console.WriteLine();
+
+        // Calculate average temperature
+        double averageTemp = temperatures.Average();
+        Console.WriteLine(averageTemp);
     }
 }
