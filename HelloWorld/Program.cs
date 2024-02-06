@@ -1,4 +1,6 @@
-﻿namespace HelloWorld;
+﻿using Microsoft.VisualBasic;
+
+namespace HelloWorld;
 
 class Program
 {
@@ -47,12 +49,16 @@ class Program
         // Store and retrieve data using literal and variable values in C#
 
         // Variables
-        int age = 30;  // Declaring and initializing an integer variable
-        double height = 5.9;  // Declaring and initializing a double variable
-        string name = "John"; // Declear and initializing a string variable
+        // int age = 30;  // Declaring and initializing an integer variable
+        // double height = 5.9;  // Declaring and initializing a double variable
+        // string name = "John"; // Declear and initializing a string variable
 
-        Console.WriteLine(age);
-        Console.WriteLine(height);
-        Console.WriteLine(name);
+        // Console.WriteLine(age);
+        // Console.WriteLine(height);
+        // Console.WriteLine(name);
+
+        // Constants
+        const double PI = 3.14159; // Declaring a constant
+        Console.WriteLine(PI);
     }
 }
