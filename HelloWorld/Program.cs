@@ -58,7 +58,16 @@ class Program
         // Console.WriteLine(name);
 
         // Constants
-        const double PI = 3.14159; // Declaring a constant
-        Console.WriteLine(PI);
+        // const double PI = 3.14159; // Declaring a constant
+        // Console.WriteLine(PI);
+
+        // Storing Data
+        int a = 10; // Storing an integer literal in a variable
+        a = 20; // Changing the value stored in the variable 'a'
+        const string GREETING = "Hello, C#"; // Storing a string literal in a constant
+
+        // Retrieving Data
+        Console.WriteLine(a); // Output: 20
+        Console.WriteLine(GREETING);
     }
 }
