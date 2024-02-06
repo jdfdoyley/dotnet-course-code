@@ -71,9 +71,15 @@ class Program
         // Console.WriteLine(GREETING);
 
         // Using Variables in Expressions
-        int x = 5;
-        int y = 10;
-        int sum = x + y;  // Using variables 'x' and 'y' in an expression
-        Console.WriteLine(sum);
+        // int x = 5;
+        // int y = 10;
+        // int sum = x + y;  // Using variables 'x' and 'y' in an expression
+        // Console.WriteLine(sum);
+
+        // Declare Implicityly Typed Local Variables
+        var number = 10; // Implicitly typed as int
+        var name = "John Doe"; // Implicitly typed as string
+        var isCompleted = false; // Implicitly typed as bool
+        var numbers = new List<int> { 1, 2, 3 }; // Implicitly typed as List<int>
     }
 }
